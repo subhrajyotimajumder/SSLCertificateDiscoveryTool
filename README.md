@@ -1,4 +1,4 @@
-# Free SSLCertificateDiscoveryTool - 
+# Free SSLCertificateDiscoveryTool 
 Easily Find SSL Certificates in Your Network
 
 
