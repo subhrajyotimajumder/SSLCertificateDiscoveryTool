@@ -14,6 +14,21 @@ across internal or external network ranges.
   common name, expiration date, and issuer.
 - Configurable thread count and HTTPS timeout via `application.properties`.
 
+## Ideas for New Functionality
+
+- **Certificate health checks**: flag weak ciphers, short key sizes, or expiring
+  certificates and color-code the results in the UI.
+- **Scheduled scans**: allow recurring inventory runs with automatic report
+  export to a chosen directory.
+- **Notification hooks**: send Slack, email, or webhook alerts for newly found
+  or soon-to-expire certificates.
+- **Expanded export formats**: add CSV/JSON export and optionally store scan
+  history in a local SQLite database.
+- **Hostname resolution**: reverse-resolve IPs and show DNS names alongside
+  certificate common names.
+- **Custom trust stores**: allow scanning with a user-specified trust store for
+  internal PKI environments.
+
 ## Requirements
 
 - Java 8 or later
